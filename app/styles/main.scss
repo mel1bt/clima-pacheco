@@ -89,3 +89,15 @@ body {
     border-bottom: 0;
   }
 }
+
+.modal {
+  display: block;
+  position: fixed;
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+  background-color: #fff;
+  &.inactivo {
+      display: none;
+  }
+}

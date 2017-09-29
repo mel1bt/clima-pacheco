@@ -1,4 +1,6 @@
-import mostrarCiudades from './app';
 import ciudades from './data';
+import './pacheco-plugin';
 
-mostrarCiudades(ciudades);
+$(() => {
+  $('.row.marketing').pacheco({ciudades});
+});
